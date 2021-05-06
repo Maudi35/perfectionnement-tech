@@ -149,7 +149,7 @@ h1 {
   border: none;
   color: #fff;
   font-size: 17px;
-  background: #2F00EB;
+  background: #2f00eb;
   border-radius: 5px;
   cursor: pointer;
   margin-top: 13px;
@@ -478,7 +478,7 @@ h1 {
 
 /* VIDEO CHAT */
 #video-grid {
-  display: grid;
+  display: none;
   grid-template-columns: repeat(auto-fill, 300px);
   grid-auto-rows: 300px;
 }
