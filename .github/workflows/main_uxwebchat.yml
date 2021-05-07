@@ -53,5 +53,5 @@ jobs:
       with:
         app-name: 'uxwebchat'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_46b5581b38104304ad1545cda15e33ad }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_646ec7cb2ae24a02a9afd6d35308b5d0 }}
         package: .
