@@ -16,7 +16,7 @@
                 echo "$email - This email already exist!";
             }else{
                 //vérifier que l'utilisateur charge ses fichiers
-                //Si le fichier est chargé
+                //Si le fichier est chargé 
                 if(isset($_FILES['image'])){
                     //alors on récupère le nom de l'image
                     $img_name = $_FILES['image']['name'];
@@ -70,6 +70,7 @@
             echo "$email n'est pas valide";
         }
     }else{
-        echo "All input fields are required!";
+        echo "Vous devez remplir tous les champs";
     }
 ?>
+

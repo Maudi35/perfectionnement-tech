@@ -12,22 +12,22 @@
             $user_pass = md5($password);
             $enc_pass = $row['password'];
             if($user_pass === $enc_pass){
-                $status = "Active now";
+                $status = "En ligne";
                 // mettre à jour les statuts utilisateurs s'ils sont connectés avec succès
                 $sql2 = mysqli_query($conn, "UPDATE users SET status = '{$status}' WHERE unique_id = {$row['unique_id']}");
                 if($sql2){
                     $_SESSION['unique_id'] = $row['unique_id'];
                     echo "success";
                 }else{
-                    echo "Something went wrong. Please try again!";
+                    echo "Un problème est survenu. Réessayez !";
                 }
             }else{
-                echo "Email or Password is Incorrect!";
+                echo "Email ou Password incorrect";
             }
         }else{
-            echo "$email - This email not Exist!";
+            echo "$email - Cet email n'existe pas";
         }
     }else{
-        echo "All input fields are required!";
+        echo "Tous les champs doivent être remplis";
     }
 ?>

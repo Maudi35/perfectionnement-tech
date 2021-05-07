@@ -1,9 +1,10 @@
 <?php 
   session_start();
   if(isset($_SESSION['unique_id'])){
-    header("location: users.php");
+    header("Location: users.php");
   }
 ?>
+
 <?php include './head.php'; 
 include './nav.php'; ?>
 
@@ -23,7 +24,7 @@ include './nav.php'; ?>
           <i class="fas fa-eye"></i>
         </div>
         <div class="field button">
-          <input type="submit" name="submit" value="Let's go" >
+          <input type="submit" name="submit" value="Let's go">
         </div>
       </form>
       <div class="link">Pas encore inscrit ? <a href="inscription.php">Inscrivez-vous maintenant</a></div>

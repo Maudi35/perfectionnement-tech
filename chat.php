@@ -28,12 +28,13 @@ include './nav.php'; ?>
             <p><?php echo $row['status']; ?></p>
           </div>
         </header>
-        
-        <div id="video-grid">
-          
-          </div>
+        <div id="video-grid">  
+          <div class="button">          
+            <button class="call" onclick="startCall()"><i class="fas fa-video"></i></button>
+            <button class="offcall" onclick="endCall()"><i class="fas fa-times"></i></button> 
+          </div>     
+        </div>
         <div class="chat-box">
-            
         </div>
         <form action="#" class="typing-area">
           <input type="text" class="incoming_id" name="incoming_id" value="<?php echo $user_id; ?>" hidden>
