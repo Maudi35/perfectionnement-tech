@@ -9,7 +9,7 @@
 include './nav.php'; ?>
 
 <div class="center">
-vvv
+
   <div class="wrapper registration-flex">
     <section class="form login">
       <form action="./php/login.php" method="POST" enctype="multipart/form-data" autocomplete="off">
