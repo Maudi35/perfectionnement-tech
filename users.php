@@ -10,7 +10,7 @@ include './nav.php'; ?>
 
 <body>
   <div class="center">
-    <div class="wrapper">
+    <div class="wrapper chatusers">
       <section class="users">
         <header>
           <div class="content">

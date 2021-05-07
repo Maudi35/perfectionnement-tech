@@ -61,6 +61,7 @@ chatBox.onmouseleave = () => {
 };
 
 setInterval(() => {
+  //créer un objet xml
   let xhr = new XMLHttpRequest();
   xhr.open("POST", "php/get-chat.php", true);
   xhr.onload = () => {

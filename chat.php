@@ -9,7 +9,7 @@
 include './nav.php'; ?>
 <body>
   <div class="center">
-    <div class="wrapper">
+    <div class="wrapper chatbox-container">
       <section class="chat-area">
         <header>
           <?php 

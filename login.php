@@ -23,7 +23,7 @@ include './nav.php'; ?>
           <i class="fas fa-eye"></i>
         </div>
         <div class="field button">
-          <input type="submit" name="submit" value="Let's go">
+          <input type="submit" name="submit" value="Let's go" >
         </div>
       </form>
       <div class="link">Pas encore inscrit ? <a href="inscription.php">Inscrivez-vous maintenant</a></div>

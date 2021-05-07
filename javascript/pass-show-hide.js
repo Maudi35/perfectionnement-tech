@@ -1,12 +1,14 @@
 const pswrdField = document.querySelector(".form input[type='password']"),
-toggleIcon = document.querySelector(".form .field i");
+  toggleIcon = document.querySelector(".form .field i");
 
-toggleIcon.onclick = () =>{
-  if(pswrdField.type === "password"){
+// Si on clique sur le bouton show/hide mdp alors il dévoilera le texte
+toggleIcon.onclick = () => {
+  if (pswrdField.type === "password") {
     pswrdField.type = "text";
     toggleIcon.classList.add("active");
-  }else{
+    //Sinon il le laissera caché
+  } else {
     pswrdField.type = "password";
     toggleIcon.classList.remove("active");
   }
-}
+};

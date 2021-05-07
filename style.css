@@ -47,6 +47,8 @@ nav {
 nav ul {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  align-items: center;
 }
 nav li {
   margin: 10px;
@@ -54,6 +56,11 @@ nav li {
 nav a:hover {
   color: #ffe600;
   text-decoration: none;
+}
+
+.ux-chat-logo {
+  margin-right: 75%;
+  font-size: 30px;
 }
 
 /*HOME*/
@@ -149,7 +156,7 @@ h1 {
   border: none;
   color: #fff;
   font-size: 17px;
-  background: #2f00eb;
+  background: #2a03af;
   border-radius: 5px;
   cursor: pointer;
   margin-top: 13px;
@@ -355,7 +362,7 @@ h1 {
   max-width: calc(100% - 130px);
 }
 .outgoing .details p {
-  background: #333;
+  background: #2a03af;
   color: #fff;
   border-radius: 18px 18px 0 18px;
 }
@@ -396,7 +403,7 @@ h1 {
   width: 55px;
   border: none;
   outline: none;
-  background: #333;
+  background: #2a03af;
   font-size: 19px;
   cursor: pointer;
   opacity: 0.7;
@@ -474,6 +481,14 @@ h1 {
   .chat-area form button {
     width: 45px;
   }
+}
+
+/*Chat users*/
+.chatusers {
+  max-width: 1000px;
+}
+.chatbox-container {
+  max-width: 1000px;
 }
 
 /* VIDEO CHAT */
