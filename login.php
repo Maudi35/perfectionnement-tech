@@ -14,7 +14,7 @@ include './nav.php'; ?>
       <form action="./php/login.php" method="POST" enctype="multipart/form-data" autocomplete="off">
         <div class="error-text"></div>
         <div class="field input">
-          <label>Adresse email</label>
+          <label>Adresse email</label>g
           <input type="text" name="email" placeholder="Entrez votre email" required>
         </div>
         <div class="field input">
