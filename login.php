@@ -4,7 +4,7 @@
     header("Location: users.php");
   }
 ?>
-c
+
 <?php include './head.php'; 
 include './nav.php'; ?>
 
